@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+     margin: 0;
+     box-sizing: border-box;
+     padding:0;
+    
+}
+#logo{
+    display: flex;
+    color:white;
+    align-items: center;
+    margin:0 14px;
+}
+#logo img{
+    height:50px;
+    width: 50px;
+
+}
+#navbar{
+    
+     padding:13px 30px;
+     font-family: 'Dancing Script', cursive;
+     background-color: red;
+}
+#navbar ul{
+      display: flex;
+      flex-direction: row;
+      /* justify-content: center; */
+      align-items: center;
+      font-size: 30px;
+      margin-right:100px;
+}
+#navbar li{
+
+    list-style:none;
+}
+#navbar li a{
+     text-decoration: none;
+     padding: 13px 30px;
+     color:white;
+     font-size: 2rem;
+     font-weight: bold;
+}
+
+#navbar li a:hover{
+     color: black;
+}
+
+#introSection{
+    height:300px;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: center/ cover no-repeat url("static/img.jpg");
+    background-color: blue;
+    padding-bottom: 40px;
+}
+#introSection div.intro{
+     color: white;
+     background-color: black;
+     padding:10px;
+}
+#introSection div.small{
+     font-size: 1rem;
+     text-align: center;
+
+}
+
+
+#spnosorsSection{
+     height:250px;
+     background-color: rgb(210, 127, 127);
+    
+
+}
+
+#missionSection{
+    height:300px;
+ 
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 20px 20px;
+    height: 200px;
+    display: inline-block;
+   
+}
+.card h3{
+    text-align: center;
+    margin:12px;
+}
+.card-box{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    width: 100px;
+    padding: 0 14px;
+    margin: 12px 10px;
+}
+.card-img img{
+    height: inherit;
+    width: inherit;
+    padding:0 14px;
+}
+.card-content{
+    padding:10px;
+}
+.card-content p{
+    font-size: 23px;
+    font-weight: bold;
+}
+#spnosorsSection h3{
+   text-align: center;
+   padding-top:12px;
+}
+
+#sponsors{
+
+    height:120px;
+    max-width: 1000px;
+    margin: auto;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.spImage{
+    height: 140px;
+    max-width: 100px;
+    margin: 27px 20px;
+  
+}
+#missionSection h3{
+    text-align: center;
+    padding-top:12px;
+ }
+
+#footer{
+    background-color: black;
+    height:40px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    
+}
